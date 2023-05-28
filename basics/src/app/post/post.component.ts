@@ -6,5 +6,5 @@
   styleUrls: ['./post.component.css']
 })
 export class PostComponent {
-  @Input() postImg = '';
+  @Input('img') postImg = '';
 }
